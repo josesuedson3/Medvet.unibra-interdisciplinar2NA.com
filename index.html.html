@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adote com Amor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8f5;
+            color: #333;
+        }
+
+        header {
+            position: relative;
+            text-align: center;
+            color: white;
+            height: 350px;
+            overflow: hidden;
+        }
+
+        header img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(70%);
+        }
+
+        header h1 {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3rem;
+        }
+
+        header p {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1.2rem;
+        }
+
+        nav {
+            background-color: #2E8B57;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        h2 {
+            color: #2E8B57;
+        }
+
+        .poster {
+            display: block;
+            margin: 40px auto 0;
+            max-width: 90%;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #2E8B57;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        .cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            min-width: 250px;
+        }
+
+        #back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: #2E8B57;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 50%;
+            font-size: 20px;
+            cursor: pointer;
+            display: none;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        #back-to-top:hover {
+            background-color: #246b45;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=1470&q=80" alt="Cachorrinho fofo olhando para a câmera com fundo suave">
+        <h1>Adote com Amor</h1>
+        <p>Não abandone os animais. Eles têm coração!</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#maus-tratos">Maus-tratos</a>
+        <a href="#abandono">Abandono</a>
+        <a href="#dificuldades">Dificuldades</a>
+        <a href="#ajuda">Como Ajudar</a>
+        <a href="#voluntariado">Voluntariado</a>
+    </nav>
+
+    <section id="sobre">
+        <h2>Sobre o nosso projeto</h2>
+        <p>Nosso projeto tem como objetivo principal a conscientização da sociedade sobre os impactos do abandono e maus-tratos aos animais. Lutamos para oferecer suporte, incentivar a adoção responsável e criar um ambiente mais seguro e acolhedor para todos os animais em situação de rua. Acreditamos que, com empatia, informação e ação, podemos transformar vidas e garantir dignidade a esses seres indefesos.</p>
+    </section>
+
+    <section id="maus-tratos">
+        <h2>Maus-Tratos aos Animais</h2>
+        <p>Maus-tratos incluem agressões físicas, negligência, privação de alimento, abrigo ou cuidados veterinários. Além de ser um ato cruel, é crime previsto em lei. Animais que sofrem maus-tratos podem desenvolver doenças como sarna, bicheira, verminoses, além de traumas psicológicos graves.</p>
+    </section>
+
+    <section id="abandono">
+        <h2>Abandono de Animais</h2>
+        <p>O abandono é um dos maiores problemas enfrentados pelos animais. Deixar um animal à própria sorte, sem abrigo, alimento e carinho, além de ser desumano, é considerado crime pela Lei nº 9.605/98. O abandono pode resultar em mortes, doenças e proliferação de animais nas ruas.</p>
+    </section>
+
+    <section id="dificuldades">
+        <h2>Quando Falta Dinheiro, Mas Sobra Amor</h2>
+        <p>Muitas pessoas amam profundamente seus animais, mas enfrentam dificuldades financeiras que impedem o cuidado adequado. A falta de recursos para alimentação, vacinas ou atendimento veterinário pode levar ao sofrimento dos bichinhos — e, infelizmente, em alguns casos, até ao abandono.</p>
+        <p>É importante lembrar que nem todo abandono vem da maldade. Às vezes, é o desespero. Por isso, nossa missão também é ajudar a conectar quem precisa de apoio com quem pode ajudar. Incentivamos ações comunitárias, campanhas de arrecadação e redes de solidariedade para que ninguém precise abrir mão de um amigo por falta de condições.</p>
+        <p>Se você conhece alguém que passa por isso, ou se está nessa situação, saiba que existem formas de receber ajuda. Unidos, podemos cuidar melhor de todos os animais — e também das pessoas que os amam.</p>
+    </section>
+
+    <section id="ajuda">
+        <h2>Como Você Pode Ajudar</h2>
+        <p>Você pode ajudar de diversas formas: fornecendo água e comida para animais de rua, adotando com responsabilidade, divulgando campanhas de adoção, contribuindo com ONGs e abrigos, ou simplesmente não sendo omisso diante de situações de maus-tratos. Cada atitude faz a diferença!</p>
+    </section>
+
+    <section>
+        <h2>Cartaz de Conscientização</h2>
+        <img class="poster" src="https://i.imgur.com/0W0ZrKk.png" alt="Cartaz sobre maus-tratos e abandono de animais">
+    </section>
+
+    <section id="voluntariado">
+        <h2>Voluntariado e Doações</h2>
+        <p>Se você ama os animais e quer fazer a diferença, seja um voluntário ou ajude com doações! Muitas ONGs e protetores independentes precisam de apoio para continuar resgatando, tratando e cuidando de animais abandonados e vítimas de maus-tratos.</p>
+
+        <div class="cards-container">
+            <div class="card">
+                <h3>Seja Voluntário</h3>
+                <p>Participe de feiras de adoção, ajude nos cuidados diários, no transporte dos animais ou na divulgação do projeto.</p>
+            </div>
+            <div class="card">
+                <h3>Doe com Amor</h3>
+                <p>Você pode doar ração, medicamentos, cobertores, produtos de limpeza ou contribuir financeiramente com abrigos e ONGs.</p>
+            </div>
+            <div class="card">
+                <h3>Compartilhe a Causa</h3>
+                <p>Ajude compartilhando informações e campanhas nas redes sociais. Sua voz pode alcançar quem está disposto a ajudar!</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Adote com Amor. Todos os direitos reservados. Desenvolvido por Suedson.</p>
+    </footer>
+
+    <button id="back-to-top" onclick="scrollToTop()">&#8679;</button>
+
+    <script>
+        const btn = document.getElementById("back-to-top");
+
+        window.onscroll = function () {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        };
+
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+</body>
+
+</html>
+
+<script>
+    const btn = document.getElementById("back-to-top");
+
+    window.onscroll = function () {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            btn.style.display = "block";
+        } else {
+            btn.style.display = "none";
+        }
+    };
+
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+</script>
+
